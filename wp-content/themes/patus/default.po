@@ -1,0 +1,932 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Patus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-31 04:47+0700\n"
+"PO-Revision-Date: 2012-08-31 04:47+0700\n"
+"Last-Translator: \n"
+"Language-Team: UXDE dot Net <uxdedotnet@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "File Not Found"
+msgstr ""
+
+#: 404.php:10
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
+
+#: 404.php:12
+msgid "Please try the following:"
+msgstr ""
+
+#: 404.php:14
+msgid "Check your spelling"
+msgstr ""
+
+#: 404.php:15
+#, php-format
+msgid "Return to the <a href=\"%s\">home page</a>"
+msgstr ""
+
+#: 404.php:16
+msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
+msgstr ""
+
+#: archive.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:16
+msgid "Posts Tagged"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+msgid "Posts by: %s"
+msgstr ""
+
+#: archive.php:28
+msgid "Posts Selected From the Category"
+msgstr ""
+
+#: comments.php:7
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: comments.php:8 loop-search.php:28 loop-single.php:15 loop.php:29
+msgid "on"
+msgstr ""
+
+#: comments.php:8
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: comments.php:9
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:15
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:29
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:34
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:45
+msgid "Discussion"
+msgstr ""
+
+#: comments.php:45 loop-search.php:30 loop-single.php:17 loop.php:31
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:45 loop-search.php:30 loop-single.php:17 loop.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:45 loop-search.php:30 loop-single.php:17 loop.php:31
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:56
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:57
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:74
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:92
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: comments.php:92
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:92
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:97 lib/theme-editor/theme-shortcodes.php:21
+msgid "Name"
+msgstr ""
+
+#: comments.php:97 comments.php:99
+msgid " *"
+msgstr ""
+
+#: comments.php:99 lib/theme-editor/theme-shortcodes.php:22
+msgid "Email"
+msgstr ""
+
+#: comments.php:101 lib/theme-editor/theme-shortcodes.php:23
+msgid "Website"
+msgstr ""
+
+#: comments.php:109
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:31
+msgid "Follow on"
+msgstr ""
+
+#: footer.php:31
+msgid "Like on"
+msgstr ""
+
+#: footer.php:31
+msgid "Add on"
+msgstr ""
+
+#: footer.php:33
+msgid "All rights reserved"
+msgstr ""
+
+#: functions.php:23
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:24
+msgid "Mobile Navigation"
+msgstr ""
+
+#: functions.php:215
+msgid "Select a Page"
+msgstr ""
+
+#: loop-page.php:10 loop-single.php:65
+msgid "Pages:"
+msgstr ""
+
+#: loop-search.php:7 loop.php:8
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: loop-search.php:27 loop-single.php:14 loop.php:28
+msgid "Posted by"
+msgstr ""
+
+#: loop-search.php:29 loop-single.php:16 loop.php:30
+msgid "in"
+msgstr ""
+
+#: loop-single.php:78
+msgid "By"
+msgstr ""
+
+#: loop-single.php:89
+msgid "Related Posts"
+msgstr ""
+
+#: page-archives.php:14
+msgid "Last 30 Posts"
+msgstr ""
+
+#: page-archives.php:19
+msgid "n.j.y"
+msgstr ""
+
+#: page-archives.php:22
+msgid "Monthly Archives"
+msgstr ""
+
+#: page-archives.php:26
+msgid "Archives by Subject"
+msgstr ""
+
+#: search.php:8
+msgid "Search Results for"
+msgstr ""
+
+#: searchform.php:2
+msgid "Type keyword and hit enter"
+msgstr ""
+
+#: theme-options.php:65
+msgid "Logo"
+msgstr ""
+
+#: theme-options.php:66
+msgid "Upload your logo"
+msgstr ""
+
+#: theme-options.php:70
+msgid "Footer Logo"
+msgstr ""
+
+#: theme-options.php:71
+msgid "Upload your logo at footer"
+msgstr ""
+
+#: theme-options.php:75
+msgid "Favicon"
+msgstr ""
+
+#: theme-options.php:76
+msgid "Upload a 16px x 16px Png/Gif image that will represent your favicon."
+msgstr ""
+
+#: theme-options.php:80
+msgid "Contact Form Email"
+msgstr ""
+
+#: theme-options.php:81
+msgid "Enter the email address you wish to use for the contact form."
+msgstr ""
+
+#: theme-options.php:86
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: theme-options.php:87
+msgid "Select your theme main color style."
+msgstr ""
+
+#: theme-options.php:92
+msgid "Link Stylesheet"
+msgstr ""
+
+#: theme-options.php:93
+msgid "Select your theme link color style."
+msgstr ""
+
+#: theme-options.php:103
+msgid "Social Networks"
+msgstr ""
+
+#: theme-options.php:107
+msgid "Share Buttons"
+msgstr ""
+
+#: theme-options.php:108
+msgid "Enable share buttons on the single post."
+msgstr ""
+
+#: theme-options.php:113
+msgid "RSS Username"
+msgstr ""
+
+#: theme-options.php:114
+msgid "Enter your RSS username."
+msgstr ""
+
+#: theme-options.php:119
+msgid "Twitter Username"
+msgstr ""
+
+#: theme-options.php:120
+msgid "Enter your Twitter username."
+msgstr ""
+
+#: theme-options.php:125
+msgid "Facebook Fan Page"
+msgstr ""
+
+#: theme-options.php:126
+msgid "Enter your Facebook fan page URL."
+msgstr ""
+
+#: theme-options.php:131
+msgid "Google Plus"
+msgstr ""
+
+#: theme-options.php:132
+msgid "Enter your Google Plus URL."
+msgstr ""
+
+#: theme-options.php:141 lib/theme-widgets/widget-ad.php:87
+msgid "Advertisement"
+msgstr ""
+
+#: theme-options.php:144
+msgid "Top Ad"
+msgstr ""
+
+#: theme-options.php:145
+msgid "Enter HTML code of top ad."
+msgstr ""
+
+#: theme-options.php:150
+msgid "First Home Ad"
+msgstr ""
+
+#: theme-options.php:151
+msgid "Enter HTML code of first home ad."
+msgstr ""
+
+#: theme-options.php:156
+msgid "Second Home Ad"
+msgstr ""
+
+#: theme-options.php:157
+msgid "Enter HTML code of second home ad."
+msgstr ""
+
+#: theme-options.php:166
+msgid "Tracking Code"
+msgstr ""
+
+#: theme-options.php:169
+msgid "Header Scripts"
+msgstr ""
+
+#: theme-options.php:170
+msgid ""
+"Paste your custom scripts here, they will be inserted just before the &lt;/"
+"head&gt; tag."
+msgstr ""
+
+#: theme-options.php:175
+msgid "Footer Scripts"
+msgstr ""
+
+#: theme-options.php:176
+msgid ""
+"Paste your custom scripts here, they will be inserted just before the &lt;/"
+"body&gt; tag."
+msgstr ""
+
+#: theme-options.php:185
+msgid "Docs"
+msgstr ""
+
+#: theme-options.php:188
+msgid "Patus Documentation"
+msgstr ""
+
+#: theme-options.php:189
+msgid ""
+"Patus Documentation<br />\n"
+"\t\t\t\t\t\t\t\t\t  http://www.uxde.net/support/showthread.php?6-Patus-Theme-"
+"Documentation<br /><br />\n"
+"\t\t\t\t\t\t\t\t\t  If you require support such as with the installation or "
+"bugs of this theme please post your questions at:<br />\n"
+"\t\t\t\t\t\t\t\t\t  http://www.uxde.net/support/forumdisplay.php?12-Patus-"
+"Theme<br /><br />\n"
+"\t\t\t\t\t\t\t\t\t  If you have new ideas want to suggest for us please post "
+"at:<br />\n"
+"\t\t\t\t\t\t\t\t\t  http://www.uxde.net/support/forumdisplay.php?7-New-"
+"Ideas<br /><br />\n"
+"\t\t\t\t\t\t\t\t\t  Please do not post support questions in the comments "
+"area at http://www.uxde.net.\n"
+"\t\t\t\t\t\t\t\t\t  I will do my best to get back to you as soon as "
+"possible. Please be patient."
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:18 lib/theme-editor/admin-editor.php:29
+#: lib/theme-editor/admin-editor.php:40
+msgid "Black Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:19 lib/theme-editor/admin-editor.php:30
+#: lib/theme-editor/admin-editor.php:41
+msgid "Red Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:20 lib/theme-editor/admin-editor.php:31
+#: lib/theme-editor/admin-editor.php:42
+msgid "Blue Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:21 lib/theme-editor/admin-editor.php:32
+#: lib/theme-editor/admin-editor.php:43
+msgid "Green Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:22 lib/theme-editor/admin-editor.php:33
+#: lib/theme-editor/admin-editor.php:44
+msgid "Grey Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:23 lib/theme-editor/admin-editor.php:34
+#: lib/theme-editor/admin-editor.php:45
+msgid "Light Blue Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:24 lib/theme-editor/admin-editor.php:35
+#: lib/theme-editor/admin-editor.php:46
+msgid "Orange Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:25 lib/theme-editor/admin-editor.php:36
+#: lib/theme-editor/admin-editor.php:47
+msgid "Purple Button"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:27
+msgid "Medium Buttons"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:38
+msgid "Large Buttons"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:62
+msgid "One Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:63
+msgid "One Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:65
+msgid "Two Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:66
+msgid "Two Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:68
+msgid "Three Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:69
+msgid "Three Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:71
+msgid "Four Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:72
+msgid "Four Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:74
+msgid "Five Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:75
+msgid "Five Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:77
+msgid "Six Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:78
+msgid "Six Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:80
+msgid "Seven Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:81
+msgid "Seven Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:83
+msgid "Eight Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:84
+msgid "Eight Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:86
+msgid "Nine Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:87
+msgid "Nine Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:89
+msgid "Ten Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:90
+msgid "Ten Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:92
+msgid "Eleven Columns"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:93
+msgid "Eleven Columns Last"
+msgstr ""
+
+#: lib/theme-editor/admin-editor.php:95
+msgid "Twelve Columns"
+msgstr ""
+
+#: lib/theme-editor/theme-shortcodes.php:10
+msgid "Visitor Message"
+msgstr ""
+
+#: lib/theme-editor/theme-shortcodes.php:13
+msgid "Thank you!, We'll be in touch shortly"
+msgstr ""
+
+#: lib/theme-editor/theme-shortcodes.php:17
+msgid ""
+"Oops!, Looks like something went wrong, ensure you have entered all details "
+"correctly!"
+msgstr ""
+
+#: lib/theme-editor/theme-shortcodes.php:29
+msgid "Submit"
+msgstr ""
+
+#: lib/theme-options/options-framework.php:170
+#: lib/theme-options/options-framework.php:364
+msgid "Theme Options"
+msgstr ""
+
+#: lib/theme-options/options-framework.php:238
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: lib/theme-options/options-framework.php:270
+msgid "Default options restored."
+msgstr ""
+
+#: lib/theme-options/options-framework.php:313
+msgid "Options saved."
+msgstr ""
+
+#: lib/theme-options/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: lib/theme-options/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr ""
+
+#: lib/theme-options/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr ""
+
+#: lib/theme-options/options-medialibrary-uploader.php:289
+msgid "Gallery"
+msgstr ""
+
+#: lib/theme-options/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: lib/theme-options/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:25
+msgid "Use this common adspace widget to add any type of Ad as a widget."
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:31
+msgid "Adspace Widget"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:91
+msgid "Title (optional):"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:96
+msgid "Ad Code:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:101
+msgid "Image Url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:106
+msgid "Link URL:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad.php:111
+msgid "Alt text:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:17
+msgid ""
+"A widget that allows the display and configuration up to 6 125x125 ads "
+"blocks."
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:23
+msgid "125x125 Ads"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:145
+#: lib/theme-widgets/widget-facebooklike.php:169
+#: lib/theme-widgets/widget-optin.php:128
+#: lib/theme-widgets/widget-popularposts.php:118
+#: lib/theme-widgets/widget-recentposts.php:123
+#: lib/theme-widgets/widget-twittertweets.php:126
+msgid "Title:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:150
+msgid "Ad 1 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:155
+msgid "Ad 1 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:160
+msgid "Ad 2 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:165
+msgid "Ad 2 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:170
+msgid "Ad 3 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:175
+msgid "Ad 3 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:180
+msgid "Ad 4 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:185
+msgid "Ad 4 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:190
+msgid "Ad 5 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:195
+msgid "Ad 5 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:200
+msgid "Ad 6 image url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:205
+msgid "Ad 6 link url:"
+msgstr ""
+
+#: lib/theme-widgets/widget-ad125.php:210
+msgid "Randomize ads order?"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:35
+msgid "A widget that displays a facebook like box from your facebook page."
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:175
+msgid "App Id"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:181
+msgid "Page name (http://www.facebook.com/[page_name])"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:187
+msgid "Width"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:193
+msgid "Border color"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:199
+msgid "Show Faces"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:205
+msgid "Show Stream"
+msgstr ""
+
+#: lib/theme-widgets/widget-facebooklike.php:211
+msgid "Show Header"
+msgstr ""
+
+#: lib/theme-widgets/widget-flickrphotos.php:13
+msgid "Show off some of your latest Flickr photos"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:13
+msgid ""
+"Create an elaborate optin form, usable anywhere you can drag a widget to!"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:15
+msgid "Optin Form"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:117
+msgid "Optin Headline"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:118
+msgid ""
+"Explain to people why people should signup to your newsletter. Be as concise "
+"as possible, and <em>very</em> convincing!"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:119
+msgid ""
+"Paste your optin code here (read documentation if you need help finding your "
+"optin code)"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:120
+msgid ""
+"\"Social proof helps convert &mdash; if you can find a testimonial about "
+"your blog somewhere, you should put it in this space.\""
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:121
+msgid "&mdash; Toan Nguyen Minh"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:133
+msgid "Description:"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:138
+msgid "Optin Code:"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:143
+msgid "Social Proof:"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:148
+msgid "Who said it:"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:153
+msgid "Show on single post only"
+msgstr ""
+
+#: lib/theme-widgets/widget-optin.php:157
+msgid "Don't wrap to edge of content area"
+msgstr ""
+
+#: lib/theme-widgets/widget-popularposts.php:20
+msgid "A widget that displays your most commented posts."
+msgstr ""
+
+#: lib/theme-widgets/widget-popularposts.php:26
+msgid "Popular Posts"
+msgstr ""
+
+#: lib/theme-widgets/widget-popularposts.php:70
+#: lib/theme-widgets/widget-recentposts.php:75
+msgid "There are no posts available right now."
+msgstr ""
+
+#: lib/theme-widgets/widget-popularposts.php:124
+#: lib/theme-widgets/widget-recentposts.php:129
+msgid "Number:"
+msgstr ""
+
+#: lib/theme-widgets/widget-recentposts.php:26
+msgid "A widget that displays your most recent posts."
+msgstr ""
+
+#: lib/theme-widgets/widget-recentposts.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: lib/theme-widgets/widget-twittertweets.php:26
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: lib/theme-widgets/widget-twittertweets.php:32
+msgid "Latest Tweets"
+msgstr ""
+
+#: lib/theme-widgets/widget-twittertweets.php:132
+msgid "Twitter Username e.g. uxdedotnet"
+msgstr ""
+
+#: lib/theme-widgets/widget-twittertweets.php:138
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: lib/theme-widgets/widget-twittertweets.php:144
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""

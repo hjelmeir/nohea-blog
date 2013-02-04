@@ -1,0 +1,16 @@
+*** Patus Changelog ***
+
+2012.08.31 - version 1.0.4
+* Fix bugs for responsive layout!
+
+2012.08.31 - version 1.0.3
+* Fix bugs for widgets!
+
+2012.08.30 - version 1.0.2
+* Fix bugs for footer scripts, Facebook widget and link jumps to more!
+
+2012.08.26 - version 1.0.1
+* Fix bugs for responsive layout. Add traking code, share buttons, unlimited color and documentation!
+
+2012.08.07 - version 1.0.0
+* First release!

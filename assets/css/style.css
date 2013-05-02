@@ -194,6 +194,7 @@ textarea {
 	box-shadow: 0 2px 5px rgba(100,100,100,0.1);
 	border: 1px solid #ddd;
 	color: #888;
+  max-width:100%;
 }
 input[type=text]:focus,
 textarea:focus {
@@ -352,7 +353,7 @@ body {
   z-index:30;
   height:40px;
 }
-.connect-with-me .social-connections {
+.connect-with-me .social-connections, .connect-with-me #social-menu-toggle {
   display:block;
   margin:0 382px 0 auto;
   background: white;
@@ -363,6 +364,11 @@ body {
   min-height: 30px;
   padding: 6px 6px 0;
   width: auto;
+}
+.connect-with-me #social-menu-toggle {
+  display:none;
+  float:none;
+  margin:0;
 }
 .connect-with-me .social-connections a {
   display:block;
@@ -704,6 +710,9 @@ dl.gallery-item {
 }
 
 /* Resume page */
+.floatleft {
+  float:left;
+}
 .page-template-content-resume-php #main {
   margin-right:0;
   font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -714,9 +723,14 @@ dl.gallery-item {
   width:auto;
   padding:2.5em;
 }
+.page-template-content-resume-php header {
+  margin-bottom:0.5em;
+}
 .page-template-content-resume-php ul.resume-links {
   float:right;
   list-style:none;
+  font-size:0.95em;
+  margin-right:1em;
 }
 .page-template-content-resume-php h1 {
   font-weight:bold;
@@ -732,7 +746,8 @@ dl.gallery-item {
   font-size:0.85em;
 }
 .page-template-content-resume-php header p,
-.employment article h4 em {
+.employment article h4 em,
+.education h4.blue em {
   color:#bebebe;
 }
 
@@ -743,6 +758,56 @@ dl.gallery-item {
 .page-template-content-resume-php h2, .green,
 .employment article h4 a {
   color:#85c54d;
+}
+ul.resume-links a {
+  line-height:1.725em;
+}
+
+/* Icons */
+.icons {
+  float:left;
+  width:16px;
+  height:16px;
+  display:block;
+  background:url(../images/icons/resume-icons.png) 0 -1px no-repeat;
+}
+.decor .icons {
+  width:25px;
+  height:25px;
+  position:absolute;
+  left:2px;
+}
+.decor .icons.employment {
+  background-position:0 -1px;
+}
+.decor .icons.education {
+  background-position: -40px -1px;
+}
+.decor .icons.skills{
+  background-position: -81px 0;
+}
+.resume-links .icons {
+  margin-right:10px;
+  margin-top:4px;
+}
+.icons.link {
+  background-position:0 -34px;
+}
+.icons.email {
+  background-position:-21px -34px;
+}
+.icons.github {
+  background-position:-42px -34px;
+}
+.icons.twitter {
+  background-position:-65px -34px;
+}
+.icons.dribbble {
+  background-position:-87px -34px;
+}
+
+.blue {
+  color:#016A8D;
 }
 a.green:hover,
 .employment article h4 a:hover {
@@ -763,35 +828,122 @@ a.green:hover,
 .employment article {
   width:70%;
 }
-.employment .decor {
+.employment article p {
+  max-width:90%;
+}
+/* Decor */
+.decor {
   padding-left:2em;
   position:relative;
   overflow:hidden;
 }
-.employment .decor:before {
+.decor:before {
   width:2px;
   position:absolute;
   background-color:#85c54d;
   background:-moz-linear-gradient(top,#85c54d,#55bf9c);
+  background:-o-linear-gradient(top,#85c54d,#55bf9c);
+  background:-webkit-linear-gradient(top,#85c54d,#55bf9c);
   background:linear-gradient(top,#85c54d,#55bf9c);
   height:100%;
   content: " ";
-  left:10px;
+  left:14px;
+  top:24px;
+}
+.education .decor:before {
+  background:#4cafc4;
+}
+.skills .decor:before {
+  background:#6dc5a6;
 }
 .employment article h2 {
   color:#5f5f5f;
   font-weight:bold;
   font-size:1.75em;
+  line-height:1em;
 }
 .employment article h4 {
   margin-bottom:0.25em;
   font-size:0.85em;
 }
-.employment article h4 em {
+.employment article h4 em,
+.education h4.blue em {
   font-weight:normal;
   font-size:0.75em;
   padding-left:0.5em;
 }
+section {
+  margin-bottom:2em;
+}
+.education .decor,
+.skills .decor {
+  padding-left:3em;
+}
+.education {
+  width:40%;
+}
+.skills {
+  width:60%;
+}
+.education h4.blue {
+  color:#4cafc4;
+}
+.education h4.blue em {
+  display:block;
+  padding-left:0;
+}
+.education small {
+  font-size: 0.75em;
+  font-style: italic;
+  line-height: 1.625em;
+  display:block;
+  max-width:90%;
+}
+.skills ul {
+  float: left;
+  list-style: none;
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+  width:35%;
+}
+.skills h4 {
+  float:left;
+  width:35%;
+  margin-left:1.5em;
+  margin-bottom:0.5em;
+  font-weight:normal;
+}
+.skills ul li {
+  line-height:2em;
+}
+/* Stars */
+.skills .stars {
+  float:left;
+  max-width:170px;
+}
+.skills .stars .row {
+  min-width:140px;
+  float:left;
+  margin-top: 3px;
+  margin-bottom:0.825em;
+}
+.skills .stars .icons {
+  position:relative;
+  width:17px;
+  height:16px;
+  margin-right:8px;
+}
+.skills .stars .icons.star {
+  background-position: -111px -34px;
+}
+.skills .stars .icons.grey {
+  background-position: -135px -34px;
+}
+.skills .stars .icons.half {
+  background-position: -111px -2px;
+}
+
+
 /* =error404
 ----------------------------------------------- */
 
@@ -1565,6 +1717,37 @@ a.comment-reply-link {
   .connect-with-me .social-connections {
     margin-right:10%;
   }
+  /* Resume page */
+  .page-template-content-resume-php ul.resume-links {
+    float:none;
+    margin-left:0;
+    margin-right:0;
+  }
+  .page-template-content-resume-php header p {
+    max-width:100%;
+  }
+  .skills h4 {
+    margin-left:0;
+    width:100%;
+  }
+  .education, .skills  {
+    width:100%;
+  }
+  .employment .date {
+    text-align:left;
+    padding-left:1em;
+    padding-right:0;
+  }
+  .employment article {
+    width:100%;
+    padding-left:1em;
+  }
+  #branding {
+    padding-top:1.1em;
+  }
+  .connect-with-me #social-menu-toggle {
+    display:none;
+  }
 }
 @media (max-width: 480px) {
 	.post-thumbnail {
@@ -1582,14 +1765,86 @@ a.comment-reply-link {
     	width: auto;
 	}
   .connect-with-me {
-    position:relative;
+    width:96%;
   }
   .connect-with-me .social-connections {
-    margin-right:10%;
-    position:relative;
+    display:none;
+  }
+  .connect-with-me #social-menu-toggle {
+    width:34px;
+    height:34px;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+    cursor:pointer;
+  }
+  #branding {
+    padding-top:0;
   }
   #branding hgroup {
     margin-bottom:0.5em;
+  }
+  /* Resume page */
+  .page-template-content-resume-php ul.resume-links {
+    float:none;
+    margin-left:0;
+    margin-right:0;
+  }
+  .page-template-content-resume-php header p {
+    max-width:100%;
+  }
+  .employment .date, .employment article {
+    float:none;
+  }
+  .employment .date {
+    text-align:left;
+    padding-left:0;
+  }
+  .employment article {
+    padding-left:0;
+    width:auto;
+  }
+  .employment article p {
+    max-width:100%;
+  }
+  .education, .skills  {
+    width:100%;
+  }
+  .decor .icons.employment, .decor .icons.education, .decor .icons.skills {
+    float:none;
+    margin-bottom:0.5em;
+    position:relative;
+  }
+  .decor:before {
+    width:100%;
+    background:#85C54D;
+    height:2px;
+    left:25px;
+    top:11px;
+  }
+  .decor, .education .decor, .skills .decor {
+    padding-left: 0;
+  }
+  .skills h4 {
+    margin-left:0;
+    width:100%;
+  }
+  .employment article h2 {
+    word-wrap: break-word;
+  }
+  .page-template-content-resume-php #main .hentry {
+    padding:1.5em;
+  }
+  .page-template-content-resume-php .connect-with-me {
+    display:none;
+  }
+  .page-template-content-resume-php #branding {
+    padding-top:0;
+  }
+  #page {
+    padding:1em;
   }
 }
 

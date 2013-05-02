@@ -71,6 +71,7 @@
 <div id="page" class="hfeed">
   <aside class="connect-with-me">
     <!--a href="<?=bloginfo('url')?>/contact" class="toggle-connect">Connect with me</a-->
+    <div id="social-menu-toggle"><img src="<?=bloginfo('url')?>/assets/images/icons/menu.png" alt="Menu"></div>
     <div class="social-connections">
       <a href="http://dribbble.com/hjelmeir" class="dribble" title="Connect with Nohea Designs on Dribble" target="_blank"><img src="<?=bloginfo('url')?>/assets/images/icons/dribbble.png" alt="Nohea Designs on Dribble"></a>
 

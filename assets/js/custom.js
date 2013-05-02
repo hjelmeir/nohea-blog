@@ -3,6 +3,10 @@
  */
 
 jQuery( function($) {
+  $('#social-menu-toggle').on('click', function() {
+    $('.social-connections').slideToggle();
+		$(this).parent().toggleClass("active");
+  });
   /*$('.connect-with-me').hover( function() {
     connect = $(this).find('a.toggle-connect');
     showSocial = $(this).find('.social-connections');
